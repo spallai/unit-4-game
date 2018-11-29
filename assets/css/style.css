@@ -1,0 +1,16 @@
+* {
+    background-image: url("");
+}
+
+header {
+    border-style: hidden;
+    background-color: darkorange;
+    padding-top: 10px;
+    width: 290px;
+    text-align: center;
+    color: white;
+    font-family: 'times new roman';
+    font-weight: bold;
+    height: 90px;
+}
+
