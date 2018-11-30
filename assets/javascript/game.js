@@ -26,12 +26,14 @@ function Counter() {
     if (StartNum === totalScore) {
         wins++;
         $("#winCounter").html(wins);
+        alert("You Win!")
         totalScore = 0;
         myFunction();
     } 
     else if (totalScore > StartNum) {
         losses++;
         $("#lossCounter").html(losses);
+        alert("You Lose :(")
         totalScore = 0;
         myFunction();
     }
