@@ -1,10 +1,18 @@
 * {
-    background-image: url("");
+    padding-left: 10px;
+    color: white;
+
 }
+
+body {
+    background-image: url("https://d1yn1kh78jj1rr.cloudfront.net/image/preview/rDtN98Qoishumwih/vvv-0216-img_9502-2573_SB_PM.jpg");
+
+}
+
 
 header {
     border-style: hidden;
-    background-color: darkorange;
+    background-color: darkblue;
     padding-top: 10px;
     width: 290px;
     text-align: center;
@@ -14,3 +22,36 @@ header {
     height: 90px;
 }
 
+.random-start-num {
+    background-color: darkblue;
+    height: 70px;
+    font-size: large;
+    margin-bottom: 10px;
+    
+}
+
+#content {
+    background-color: darkblue;
+    margin-top: -10px;
+    height: 200px;
+    width: 700px;
+}
+
+#col2 {
+    height: 70px;
+    width: 120px;
+    font-size: medium;
+    background-color: darkblue;
+    margin-bottom: 10px;
+    text-anchor: middle;
+}
+
+.panel-body {
+    background-color: darkblue;
+    padding-left: -10px;
+    width: 200px;
+    padding-top: -20px;
+    margin-top: -20px;
+    font-size: large;
+    font-weight: bold;
+}

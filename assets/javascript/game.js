@@ -17,25 +17,27 @@ var randomStartNum = Math.floor(Math.random() * 102) +19;
 
 StartNum = randomStartNum;
 
-function myFunction() {
+function startNewGame() {
     StartNum = Math.floor(Math.random() * 102) +19;
     $("#startnum").html(StartNum);
+    totalScore = 0;
+    $("#score").text(totalScore);
 }
+    
+
 
 function Counter() {
     if (StartNum === totalScore) {
         wins++;
         $("#winCounter").html(wins);
-        alert("You Win!")
-        totalScore = 0;
-        myFunction();
+        alert("You Win!");
+        startNewGame();
     } 
     else if (totalScore > StartNum) {
         losses++;
         $("#lossCounter").html(losses);
-        alert("You Lose :(")
-        totalScore = 0;
-        myFunction();
+        alert("You Lose :(");
+        startNewGame();
     }
 }
 
